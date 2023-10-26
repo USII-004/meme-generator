@@ -8,7 +8,7 @@ const Navbar = () => {
         <img src={Trollface} className='w-12 md:w-24' />
         <h2 className='self-center px-4 md:px-6 font-bold md:text-3xl'>Meme Generator</h2>
       </div>
-      <p className='hidden md:block text-2xl px-32 self-center'> React Course - Project 3</p>
+      <p className='hidden md:block text-2xl px-32 self-center'> React Course - Usii Project 3 </p>
     </nav>
   )
 }
