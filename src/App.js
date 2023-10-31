@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      {/* <Forms /> */}
+      <Forms />
       {/* <Test /> */}
       {/* <Test2 /> */}
       {/* <Test3 /> */}
@@ -24,7 +24,7 @@ function App() {
       {/* <Test6 /> */}
       {/* <Test7 /> */}
       {/* <Test8 /> */}
-      <Test9 />
+      {/* <Test9 /> */}
     </div>
   );
 }
