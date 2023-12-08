@@ -63,20 +63,20 @@ const Forms = () => {
       </div>
       <button 
         onClick={getMemeImage} 
-        className='text-sm md:text-2xl w-[100%] bg-gradient-to-r from-[#672280] to-[#A626D3] h-10 md:h-16 rounded-md mt-8 md:mt-12 text-white hover:from-[#471a57] hover:to-[#881ab1]'
+        className='text-sm md:text-2xl w-[100%] bg-gradient-to-r from-[#3392eb] to-[#1f6cb5] h-10 md:h-16 rounded-md mt-8 md:mt-12 text-white hover:from-[#1f6cb5] hover:to-[#3392eb]'
       >
       Get a new meme image
       </button>
-      <div className='sm:w-full relative md:w-[50%] mx-auto'>
+      <div className='sm:w-full relative md:w-[450px] mx-auto'>
         <img 
           src={meme.randomImage} 
-          className='w-full py-4 md:w-[70%]' 
-          
+          className='w-full py-4 md:w-[100%]' 
+          alt='meme'
         />
-        <h2 className='absolute text-xl font-extrabold text-white font-anton top-8 md:top-12 left-12 md:left-[10%] right-12'>
+        <h2 className='absolute text-xl md:text-3xl font-extrabold text-white font-anton top-8 md:top-12 left-12 right-12'>
           {meme.topText}
         </h2>
-        <h2 className='absolute text-xl font-extrabold text-white font-anton bottom-8 left-12 right-12'>
+        <h2 className='absolute text-xl md:text-3xl font-extrabold text-white font-anton bottom-8 left-12 right-12'>
           {meme.bottomText}
         </h2>
       </div>
